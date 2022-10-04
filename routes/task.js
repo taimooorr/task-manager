@@ -9,6 +9,5 @@ router.route('/').get(getAllTasks).post(createTask);
 // @route   GET, PUT and DELETE api/tasks/:id
 router.route('/:id').get(getSingleTask).put(updateTask).delete(deleteTask);
 
-
 //export router
 module.exports = router;
